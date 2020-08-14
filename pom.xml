@@ -11,7 +11,7 @@
   <properties>
     <maven.compiler.testSource>1.8</maven.compiler.testSource>
     <maven.compiler.testTarget>1.8</maven.compiler.testTarget>
-    <phosphor.version>0.0.2-SNAPSHOT</phosphor.version>
+    <phosphor.version>0.0.5-SNAPSHOT</phosphor.version>
   </properties>
 
 
@@ -140,7 +140,7 @@
     -Dpackaging=jar-->
 
     <dependency>
-      <groupId>edu.columbia.cs.psl.phosphor</groupId>
+      <groupId>edu.gmu.swe.phosphor</groupId>
       <artifactId>Phosphor</artifactId>
       <version>${phosphor.version}</version>
     </dependency>  
